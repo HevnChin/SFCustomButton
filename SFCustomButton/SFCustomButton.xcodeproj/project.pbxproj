@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3766DBCA23D19B89006887A9 /* UIImage+Extends.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766DBC923D19B89006887A9 /* UIImage+Extends.m */; };
+		37E3340223D197F0000E1938 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E3340123D197F0000E1938 /* AppDelegate.m */; };
+		37E3340523D197F0000E1938 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E3340423D197F0000E1938 /* SceneDelegate.m */; };
+		37E3340823D197F0000E1938 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E3340723D197F0000E1938 /* ViewController.m */; };
+		37E3340B23D197F0000E1938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E3340923D197F0000E1938 /* Main.storyboard */; };
+		37E3340D23D197F1000E1938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E3340C23D197F1000E1938 /* Assets.xcassets */; };
+		37E3341023D197F1000E1938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E3340E23D197F1000E1938 /* LaunchScreen.storyboard */; };
+		37E3341323D197F1000E1938 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E3341223D197F1000E1938 /* main.m */; };
+		37E3342D23D198EC000E1938 /* SFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E3342623D198EC000E1938 /* SFImageView.m */; };
+		37E3342E23D198EC000E1938 /* SFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E3342923D198EC000E1938 /* SFLabel.m */; };
+		37E3342F23D198EC000E1938 /* SFCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E3342B23D198EC000E1938 /* SFCustomButton.m */; };
+		7A0E63CE9BDC5429E53C69DE /* libPods-SFCustomButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1314495798F0ED958ED4FE3F /* libPods-SFCustomButton.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1314495798F0ED958ED4FE3F /* libPods-SFCustomButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SFCustomButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3766DBC823D19B89006887A9 /* UIImage+Extends.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extends.h"; sourceTree = "<group>"; };
+		3766DBC923D19B89006887A9 /* UIImage+Extends.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extends.m"; sourceTree = "<group>"; };
+		37E333FD23D197F0000E1938 /* SFCustomButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFCustomButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E3340023D197F0000E1938 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37E3340123D197F0000E1938 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37E3340323D197F0000E1938 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		37E3340423D197F0000E1938 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		37E3340623D197F0000E1938 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37E3340723D197F0000E1938 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37E3340A23D197F0000E1938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37E3340C23D197F1000E1938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37E3340F23D197F1000E1938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37E3341123D197F1000E1938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E3341223D197F1000E1938 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37E3342623D198EC000E1938 /* SFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFImageView.m; sourceTree = "<group>"; };
+		37E3342723D198EC000E1938 /* SFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFLabel.h; sourceTree = "<group>"; };
+		37E3342823D198EC000E1938 /* SFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFImageView.h; sourceTree = "<group>"; };
+		37E3342923D198EC000E1938 /* SFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFLabel.m; sourceTree = "<group>"; };
+		37E3342A23D198EC000E1938 /* SFCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCustomButton.h; sourceTree = "<group>"; };
+		37E3342B23D198EC000E1938 /* SFCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCustomButton.m; sourceTree = "<group>"; };
+		37E3342C23D198EC000E1938 /* SFCustomButtonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCustomButtonHeader.h; sourceTree = "<group>"; };
+		5EFCC1CB1A7C07D84EE01357 /* Pods-SFCustomButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCustomButton.debug.xcconfig"; path = "Target Support Files/Pods-SFCustomButton/Pods-SFCustomButton.debug.xcconfig"; sourceTree = "<group>"; };
+		81BB96A72A91948A5CCC845D /* Pods-SFCustomButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCustomButton.release.xcconfig"; path = "Target Support Files/Pods-SFCustomButton/Pods-SFCustomButton.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E333FA23D197F0000E1938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0E63CE9BDC5429E53C69DE /* libPods-SFCustomButton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3766DBC723D19B69006887A9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3766DBC823D19B89006887A9 /* UIImage+Extends.h */,
+				3766DBC923D19B89006887A9 /* UIImage+Extends.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		37E333F423D197F0000E1938 = {
+			isa = PBXGroup;
+			children = (
+				37E333FF23D197F0000E1938 /* SFCustomButton */,
+				37E333FE23D197F0000E1938 /* Products */,
+				A590020B818E4C932605AB7C /* Pods */,
+				A224E7BF7BD20C561D0A9730 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37E333FE23D197F0000E1938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E333FD23D197F0000E1938 /* SFCustomButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E333FF23D197F0000E1938 /* SFCustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				3766DBC723D19B69006887A9 /* Category */,
+				37E3341923D197FC000E1938 /* Core */,
+				37E3340023D197F0000E1938 /* AppDelegate.h */,
+				37E3340123D197F0000E1938 /* AppDelegate.m */,
+				37E3340323D197F0000E1938 /* SceneDelegate.h */,
+				37E3340423D197F0000E1938 /* SceneDelegate.m */,
+				37E3340623D197F0000E1938 /* ViewController.h */,
+				37E3340723D197F0000E1938 /* ViewController.m */,
+				37E3340923D197F0000E1938 /* Main.storyboard */,
+				37E3340C23D197F1000E1938 /* Assets.xcassets */,
+				37E3340E23D197F1000E1938 /* LaunchScreen.storyboard */,
+				37E3341123D197F1000E1938 /* Info.plist */,
+				37E3341223D197F1000E1938 /* main.m */,
+			);
+			path = SFCustomButton;
+			sourceTree = "<group>";
+		};
+		37E3341923D197FC000E1938 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				37E3342C23D198EC000E1938 /* SFCustomButtonHeader.h */,
+				37E3342523D198EC000E1938 /* subView */,
+				37E3342A23D198EC000E1938 /* SFCustomButton.h */,
+				37E3342B23D198EC000E1938 /* SFCustomButton.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		37E3342523D198EC000E1938 /* subView */ = {
+			isa = PBXGroup;
+			children = (
+				37E3342823D198EC000E1938 /* SFImageView.h */,
+				37E3342623D198EC000E1938 /* SFImageView.m */,
+				37E3342723D198EC000E1938 /* SFLabel.h */,
+				37E3342923D198EC000E1938 /* SFLabel.m */,
+			);
+			path = subView;
+			sourceTree = "<group>";
+		};
+		A224E7BF7BD20C561D0A9730 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1314495798F0ED958ED4FE3F /* libPods-SFCustomButton.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A590020B818E4C932605AB7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EFCC1CB1A7C07D84EE01357 /* Pods-SFCustomButton.debug.xcconfig */,
+				81BB96A72A91948A5CCC845D /* Pods-SFCustomButton.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37E333FC23D197F0000E1938 /* SFCustomButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E3341623D197F1000E1938 /* Build configuration list for PBXNativeTarget "SFCustomButton" */;
+			buildPhases = (
+				CEB39C09EC9CF47460656B73 /* [CP] Check Pods Manifest.lock */,
+				37E333F923D197F0000E1938 /* Sources */,
+				37E333FA23D197F0000E1938 /* Frameworks */,
+				37E333FB23D197F0000E1938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFCustomButton;
+			productName = SFCustomButton;
+			productReference = 37E333FD23D197F0000E1938 /* SFCustomButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E333F523D197F0000E1938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = LUCA;
+				TargetAttributes = {
+					37E333FC23D197F0000E1938 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 37E333F823D197F0000E1938 /* Build configuration list for PBXProject "SFCustomButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37E333F423D197F0000E1938;
+			productRefGroup = 37E333FE23D197F0000E1938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E333FC23D197F0000E1938 /* SFCustomButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E333FB23D197F0000E1938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E3341023D197F1000E1938 /* LaunchScreen.storyboard in Resources */,
+				37E3340D23D197F1000E1938 /* Assets.xcassets in Resources */,
+				37E3340B23D197F0000E1938 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEB39C09EC9CF47460656B73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SFCustomButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E333F923D197F0000E1938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E3340823D197F0000E1938 /* ViewController.m in Sources */,
+				37E3340223D197F0000E1938 /* AppDelegate.m in Sources */,
+				37E3341323D197F1000E1938 /* main.m in Sources */,
+				3766DBCA23D19B89006887A9 /* UIImage+Extends.m in Sources */,
+				37E3340523D197F0000E1938 /* SceneDelegate.m in Sources */,
+				37E3342E23D198EC000E1938 /* SFLabel.m in Sources */,
+				37E3342D23D198EC000E1938 /* SFImageView.m in Sources */,
+				37E3342F23D198EC000E1938 /* SFCustomButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37E3340923D197F0000E1938 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E3340A23D197F0000E1938 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37E3340E23D197F1000E1938 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E3340F23D197F1000E1938 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37E3341423D197F1000E1938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37E3341523D197F1000E1938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37E3341723D197F1000E1938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EFCC1CB1A7C07D84EE01357 /* Pods-SFCustomButton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 559U49G4NY;
+				INFOPLIST_FILE = SFCustomButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiainnovations.crush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = crush_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37E3341823D197F1000E1938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81BB96A72A91948A5CCC845D /* Pods-SFCustomButton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 559U49G4NY;
+				INFOPLIST_FILE = SFCustomButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiainnovations.crush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = crush_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E333F823D197F0000E1938 /* Build configuration list for PBXProject "SFCustomButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E3341423D197F1000E1938 /* Debug */,
+				37E3341523D197F1000E1938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E3341623D197F1000E1938 /* Build configuration list for PBXNativeTarget "SFCustomButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E3341723D197F1000E1938 /* Debug */,
+				37E3341823D197F1000E1938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37E333F523D197F0000E1938 /* Project object */;
+}
