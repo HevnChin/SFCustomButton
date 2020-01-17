@@ -29,9 +29,8 @@
 
 + (instancetype)buttonWithCustomType:(SFCustomButtonType)buttonType {
     SFCustomButton *button = [super buttonWithType:UIButtonTypeCustom];
-    button.type = buttonType;
     [button _initViews];
-    
+    button.type = buttonType;
     return button;
 }
 
@@ -40,6 +39,7 @@
     if (self) {
         NSLog(@"sss");
         [self _initViews];
+        self.type = SFCustomButtonType_LeadingTrailing_IconText;
     }
     return self;
 }
@@ -52,7 +52,6 @@
 - (void)_initViews {
     [self addSubview:self.stackView];
     self.status = SFCustomStatus_Normal;
-    [self setType:(SFCustomButtonType_LeadingTrailing_IconText)];
     
     [self.stackView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.mas_greaterThanOrEqualTo(0);

@@ -28,6 +28,9 @@
     [self configLeftRight];
     [self configTopBottom];
     [self configSample];
+    
+    SFCustomButton *button = [SFCustomButton buttonWithType:(UIButtonTypeCustom)];
+    button;
 }
 
 #pragma mark -
