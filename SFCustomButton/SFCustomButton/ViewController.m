@@ -29,6 +29,7 @@
     [self configTopBottom];
     [self configSample];
     
+    ///默认是左右Icon+文字
     SFCustomButton *button = [SFCustomButton buttonWithType:(UIButtonTypeCustom)];
     button;
 }
