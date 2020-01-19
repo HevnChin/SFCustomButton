@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37EE676E23D455B300238215 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EE676D23D455B300238215 /* AppDelegate.m */; };
+		37EE677123D455B300238215 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EE677023D455B300238215 /* SceneDelegate.m */; };
+		37EE677423D455B300238215 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EE677323D455B300238215 /* ViewController.m */; };
+		37EE677723D455B300238215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EE677523D455B300238215 /* Main.storyboard */; };
+		37EE677923D455B500238215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EE677823D455B500238215 /* Assets.xcassets */; };
+		37EE677C23D455B500238215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EE677A23D455B500238215 /* LaunchScreen.storyboard */; };
+		37EE677F23D455B500238215 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EE677E23D455B500238215 /* main.m */; };
+		37EE678F23D4578400238215 /* SFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EE678623D4578400238215 /* SFImageView.m */; };
+		37EE679023D4578400238215 /* SFCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EE678723D4578400238215 /* SFCustomButton.m */; };
+		37EE679123D4578400238215 /* UIImage+Extends.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EE678D23D4578400238215 /* UIImage+Extends.m */; };
+		37EE679223D4578400238215 /* SFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EE678E23D4578400238215 /* SFLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37EE676923D455B300238215 /* SFCustomButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFCustomButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EE676C23D455B300238215 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37EE676D23D455B300238215 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37EE676F23D455B300238215 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		37EE677023D455B300238215 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		37EE677223D455B300238215 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37EE677323D455B300238215 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37EE677623D455B300238215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37EE677823D455B500238215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37EE677B23D455B500238215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37EE677D23D455B500238215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37EE677E23D455B500238215 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37EE678623D4578400238215 /* SFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFImageView.m; sourceTree = "<group>"; };
+		37EE678723D4578400238215 /* SFCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCustomButton.m; sourceTree = "<group>"; };
+		37EE678823D4578400238215 /* SFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFLabel.h; sourceTree = "<group>"; };
+		37EE678923D4578400238215 /* UIImage+Extends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extends.h"; sourceTree = "<group>"; };
+		37EE678A23D4578400238215 /* SFCustomButtonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCustomButtonHeader.h; sourceTree = "<group>"; };
+		37EE678B23D4578400238215 /* SFCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCustomButton.h; sourceTree = "<group>"; };
+		37EE678C23D4578400238215 /* SFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFImageView.h; sourceTree = "<group>"; };
+		37EE678D23D4578400238215 /* UIImage+Extends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extends.m"; sourceTree = "<group>"; };
+		37EE678E23D4578400238215 /* SFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37EE676623D455B300238215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37EE676023D455B300238215 = {
+			isa = PBXGroup;
+			children = (
+				37EE678523D4578400238215 /* Classs */,
+				37EE679323D4580C00238215 /* Demo */,
+				37EE676B23D455B300238215 /* SFCustomButton */,
+				37EE676A23D455B300238215 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37EE676A23D455B300238215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37EE676923D455B300238215 /* SFCustomButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37EE676B23D455B300238215 /* SFCustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				37EE676C23D455B300238215 /* AppDelegate.h */,
+				37EE676D23D455B300238215 /* AppDelegate.m */,
+				37EE676F23D455B300238215 /* SceneDelegate.h */,
+				37EE677023D455B300238215 /* SceneDelegate.m */,
+				37EE677823D455B500238215 /* Assets.xcassets */,
+				37EE677A23D455B500238215 /* LaunchScreen.storyboard */,
+				37EE677D23D455B500238215 /* Info.plist */,
+				37EE677E23D455B500238215 /* main.m */,
+			);
+			path = SFCustomButton;
+			sourceTree = "<group>";
+		};
+		37EE678523D4578400238215 /* Classs */ = {
+			isa = PBXGroup;
+			children = (
+				37EE679423D458CE00238215 /* Sub */,
+				37EE678B23D4578400238215 /* SFCustomButton.h */,
+				37EE678723D4578400238215 /* SFCustomButton.m */,
+				37EE678A23D4578400238215 /* SFCustomButtonHeader.h */,
+			);
+			path = Classs;
+			sourceTree = "<group>";
+		};
+		37EE679323D4580C00238215 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				37EE677223D455B300238215 /* ViewController.h */,
+				37EE677323D455B300238215 /* ViewController.m */,
+				37EE677523D455B300238215 /* Main.storyboard */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		37EE679423D458CE00238215 /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				37EE678C23D4578400238215 /* SFImageView.h */,
+				37EE678623D4578400238215 /* SFImageView.m */,
+				37EE678823D4578400238215 /* SFLabel.h */,
+				37EE678E23D4578400238215 /* SFLabel.m */,
+				37EE678923D4578400238215 /* UIImage+Extends.h */,
+				37EE678D23D4578400238215 /* UIImage+Extends.m */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37EE676823D455B300238215 /* SFCustomButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EE678223D455B500238215 /* Build configuration list for PBXNativeTarget "SFCustomButton" */;
+			buildPhases = (
+				37EE676523D455B300238215 /* Sources */,
+				37EE676623D455B300238215 /* Frameworks */,
+				37EE676723D455B300238215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFCustomButton;
+			productName = SFCustomButton;
+			productReference = 37EE676923D455B300238215 /* SFCustomButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37EE676123D455B300238215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = LUCA;
+				TargetAttributes = {
+					37EE676823D455B300238215 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 37EE676423D455B300238215 /* Build configuration list for PBXProject "SFCustomButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37EE676023D455B300238215;
+			productRefGroup = 37EE676A23D455B300238215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37EE676823D455B300238215 /* SFCustomButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37EE676723D455B300238215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EE677C23D455B500238215 /* LaunchScreen.storyboard in Resources */,
+				37EE677923D455B500238215 /* Assets.xcassets in Resources */,
+				37EE677723D455B300238215 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37EE676523D455B300238215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EE677423D455B300238215 /* ViewController.m in Sources */,
+				37EE679123D4578400238215 /* UIImage+Extends.m in Sources */,
+				37EE676E23D455B300238215 /* AppDelegate.m in Sources */,
+				37EE678F23D4578400238215 /* SFImageView.m in Sources */,
+				37EE677F23D455B500238215 /* main.m in Sources */,
+				37EE679223D4578400238215 /* SFLabel.m in Sources */,
+				37EE677123D455B300238215 /* SceneDelegate.m in Sources */,
+				37EE679023D4578400238215 /* SFCustomButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37EE677523D455B300238215 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EE677623D455B300238215 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37EE677A23D455B500238215 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EE677B23D455B500238215 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37EE678023D455B500238215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37EE678123D455B500238215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37EE678323D455B500238215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 559U49G4NY;
+				INFOPLIST_FILE = SFCustomButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiainnovations.crush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = crush_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37EE678423D455B500238215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 559U49G4NY;
+				INFOPLIST_FILE = SFCustomButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiainnovations.crush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = crush_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37EE676423D455B300238215 /* Build configuration list for PBXProject "SFCustomButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EE678023D455B500238215 /* Debug */,
+				37EE678123D455B500238215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EE678223D455B500238215 /* Build configuration list for PBXNativeTarget "SFCustomButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EE678323D455B500238215 /* Debug */,
+				37EE678423D455B500238215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37EE676123D455B300238215 /* Project object */;
+}

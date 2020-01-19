@@ -7,7 +7,8 @@
 //
 
 #import "SFCustomButton.h"
-#import <Masonry.h>
+#import "SFImageView.h"
+#import "SFLabel.h"
 
 @interface SFCustomButton ()
 @property (nonatomic, strong) UIStackView *stackView;
@@ -37,7 +38,6 @@
 - (instancetype)initWithCoder:(NSCoder *)coder {
     self = [super initWithCoder:coder];
     if (self) {
-        NSLog(@"sss");
         [self _initViews];
         self.type = SFCustomButtonType_LeadingTrailing_IconText;
     }
@@ -53,13 +53,7 @@
     [self addSubview:self.stackView];
     self.status = SFCustomStatus_Normal;
     
-    [self.stackView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.leading.mas_greaterThanOrEqualTo(0);
-        make.trailing.mas_lessThanOrEqualTo(0);
-        make.top.mas_greaterThanOrEqualTo(0);
-        make.bottom.mas_lessThanOrEqualTo(0);
-        make.center.equalTo(self);
-    }];
+    [self _showInSuperViewWithView:self.stackView];
 }
 
 - (void)setType:(SFCustomButtonType)type {
@@ -100,6 +94,39 @@
 
 #pragma mark -
 #pragma mark -set
+///The goal is to center the whole instead of supporting the parent View
+- (void)_showInSuperViewWithView:(UIView *)view {
+    if(view.superview && view) {
+        view.translatesAutoresizingMaskIntoConstraints = NO;
+        UIView *superview = view.superview;
+        
+        ///top
+        [superview addConstraint:[NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeTop
+                                                              relatedBy:NSLayoutRelationGreaterThanOrEqual
+                                                                 toItem:superview attribute:NSLayoutAttributeTop multiplier:1 constant:0]];
+        //Leading
+        [superview addConstraint:[NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeLeading
+                                                              relatedBy:NSLayoutRelationGreaterThanOrEqual
+                                                                 toItem:superview attribute:NSLayoutAttributeLeading multiplier:1 constant:0]];
+        //Bottom
+        [superview addConstraint:[NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeBottom
+                                                              relatedBy:NSLayoutRelationLessThanOrEqual
+                                                                 toItem:superview attribute:NSLayoutAttributeBottom multiplier:1 constant:0]];
+        //Trailing
+        [superview addConstraint:[NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeTrailing
+                                                              relatedBy:NSLayoutRelationLessThanOrEqual
+                                                                 toItem:superview attribute:NSLayoutAttributeTrailing multiplier:1 constant:0]];
+        //CenterX
+        [superview addConstraint:[NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeCenterX
+                                                              relatedBy:NSLayoutRelationEqual
+                                                                 toItem:superview attribute:NSLayoutAttributeCenterX multiplier:1 constant:0]];
+        //CenterY
+        [superview addConstraint:[NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeCenterY
+                                                              relatedBy:NSLayoutRelationEqual
+                                                                 toItem:superview attribute:NSLayoutAttributeCenterY multiplier:1 constant:0]];
+    }
+}
+
 - (void)setStatus:(SFCustomStatus)status {
     _status = status;
     self.customTextLabel.status = status;
@@ -413,6 +440,14 @@
         stackView.distribution = UIStackViewDistributionFill;
         stackView.spacing = 5;
         stackView.userInteractionEnabled = NO;
+        
+        CGFloat compressionPriority = 751;
+        CGFloat huggingPriority     = 251;
+        [stackView setContentCompressionResistancePriority:compressionPriority forAxis:UILayoutConstraintAxisHorizontal];
+        [stackView setContentHuggingPriority:huggingPriority forAxis:UILayoutConstraintAxisHorizontal];
+        [stackView setContentCompressionResistancePriority:compressionPriority forAxis:UILayoutConstraintAxisVertical];
+        [stackView setContentHuggingPriority:huggingPriority forAxis:UILayoutConstraintAxisVertical];
+
         _stackView = stackView;
     }
     return _stackView;

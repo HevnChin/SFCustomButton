@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SFImageView.h"
-#import "SFLabel.h"
+#import "SFCustomButtonHeader.h"
 
 ///leading.trailing.top.bottom
 typedef NS_ENUM(NSInteger,SFCustomButtonType){

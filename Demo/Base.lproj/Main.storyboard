@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eGh-YX-wOU">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="zl5-T4-wml">
+            <objects>
+                <viewController interfaceStyle="light" id="eGh-YX-wOU" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o3d-ak-ONf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Yct-pB-RRl" userLabel="TBStack View">
+                                <rect key="frame" x="172.5" y="294.5" width="30" height="78"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TmC-TD-M4O" userLabel="TBIconTextButton" customClass="SFCustomButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="34"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtj-uA-MhP" userLabel="TBTextIconButton" customClass="SFCustomButton">
+                                        <rect key="frame" x="0.0" y="44" width="30" height="34"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="PJs-ii-Z4A" userLabel="LRStack View">
+                                <rect key="frame" x="152.5" y="402.5" width="70" height="34"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PI3-EH-2ca" userLabel="LRIconTextButton" customClass="SFCustomButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="34"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAk-CE-G4N" userLabel="LRTextIconButton" customClass="SFCustomButton">
+                                        <rect key="frame" x="40" y="0.0" width="30" height="34"/>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CHN-7K-fJK" userLabel="SPStack View">
+                                <rect key="frame" x="152.5" y="466.5" width="70" height="34"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8q-MG-u3h" userLabel="TextButton" customClass="SFCustomButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="34"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIH-q6-Qtf" userLabel="IconButton" customClass="SFCustomButton">
+                                        <rect key="frame" x="40" y="0.0" width="30" height="34"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Yct-pB-RRl" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="1V9-Wq-xay" secondAttribute="trailing" id="3uG-XC-idF"/>
+                            <constraint firstItem="PJs-ii-Z4A" firstAttribute="centerX" secondItem="Yct-pB-RRl" secondAttribute="centerX" id="G2p-Wx-b2Z"/>
+                            <constraint firstItem="CHN-7K-fJK" firstAttribute="centerX" secondItem="PJs-ii-Z4A" secondAttribute="centerX" id="NZi-Qo-7fo"/>
+                            <constraint firstItem="CHN-7K-fJK" firstAttribute="top" secondItem="PJs-ii-Z4A" secondAttribute="bottom" constant="30" id="Rvy-17-fcc"/>
+                            <constraint firstItem="PJs-ii-Z4A" firstAttribute="top" secondItem="Yct-pB-RRl" secondAttribute="bottom" constant="30" id="ffH-7e-2F4"/>
+                            <constraint firstItem="Yct-pB-RRl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="1V9-Wq-xay" secondAttribute="leading" id="mSS-FT-MiN"/>
+                            <constraint firstItem="Yct-pB-RRl" firstAttribute="centerY" secondItem="1V9-Wq-xay" secondAttribute="centerY" id="nyS-m5-0D5"/>
+                            <constraint firstItem="Yct-pB-RRl" firstAttribute="centerX" secondItem="1V9-Wq-xay" secondAttribute="centerX" id="oDk-kh-FkD"/>
+                            <constraint firstItem="PJs-ii-Z4A" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="1V9-Wq-xay" secondAttribute="leading" id="sae-72-t6g"/>
+                            <constraint firstItem="PJs-ii-Z4A" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="1V9-Wq-xay" secondAttribute="trailing" id="uQT-h8-IBC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1V9-Wq-xay"/>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="IconButton" destination="fIH-q6-Qtf" id="DFt-C0-3CC"/>
+                        <outlet property="lrIconTextButton" destination="PI3-EH-2ca" id="gGt-G0-J0c"/>
+                        <outlet property="lrTextIconButton" destination="VAk-CE-G4N" id="8FM-fr-wBh"/>
+                        <outlet property="tbIconTextButton" destination="TmC-TD-M4O" id="hT3-E3-9Wa"/>
+                        <outlet property="tbTextIconButton" destination="jtj-uA-MhP" id="1fw-PG-LkX"/>
+                        <outlet property="textButton" destination="q8q-MG-u3h" id="ogU-pL-PtV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ild-51-aQ1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="129"/>
+        </scene>
+    </scenes>
+</document>
