@@ -1,21 +1,19 @@
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
-  spec.name         = "SFCustomButton"
-  spec.version      = "0.0.1"
-  spec.summary      = "Free layout iocn textlabel button"
-  spec.homepage     = "https://github.com/WSFeng/SFCustomButton"
+  s.name         = "SFCustomButton"
+  s.version      = "0.0.2"
+  s.summary      = "Free layout iocn textlabel button"
+  s.homepage     = "https://github.com/WSFeng/SFCustomButton"
 
-  spec.license            = "MIT"
-  spec.author             = { "LUCA" => "iwangshengfeng@163.com" }
-  spec.social_media_url   = "https://twitter.com/iWSFeng"
-  spec.platform          = :ios, "9.0"
-  spec.source             = { :git => "https://github.com/WSFeng/SFCustomButton.git", :tag => "#{spec.version}" }
+  s.license               = "MIT"
+  s.author                = { "LUCA" => "iwangshengfeng@163.com" }
+  s.social_media_url      = "https://twitter.com/iWSFeng"
+  s.platform              = :ios, "9.0"
+  s.source                = { :git => "https://github.com/WSFeng/SFCustomButton.git", :tag => "#{spec.version}" }
+  s.public_header_files   = 'SFCustomButton/SFCustomButton/Core/*.h'
+  s.source_files          = 'SFCustomButton/SFCustomButton/Core/*.{h,m}'
 
-  spec.source_files  = "SFCustomButton", "SFCustomButton/SFCustomButton/Core/**/*.{h,m}"
-
-  spec.public_header_files = "SFCustomButton/SFCustomButton/Core/**/*.h"
-
-  spec.dependency 'Masonry'
-  spec.requires_arc = true
+  s.dependency 'Masonry'
+  s.requires_arc = true
 end

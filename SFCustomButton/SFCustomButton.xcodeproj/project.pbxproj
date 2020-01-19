@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		372CE4E123D1BD0400A53995 /* UIImage+Extends.m in Sources */ = {isa = PBXBuildFile; fileRef = 372CE4E023D1BD0400A53995 /* UIImage+Extends.m */; };
+		3754CE3E23D42D5A00096AE8 /* SFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3754CE3523D42D5A00096AE8 /* SFImageView.m */; };
+		3754CE3F23D42D5A00096AE8 /* SFCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3754CE3623D42D5A00096AE8 /* SFCustomButton.m */; };
+		3754CE4023D42D5A00096AE8 /* UIImage+Extends.m in Sources */ = {isa = PBXBuildFile; fileRef = 3754CE3C23D42D5A00096AE8 /* UIImage+Extends.m */; };
+		3754CE4123D42D5A00096AE8 /* SFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3754CE3D23D42D5A00096AE8 /* SFLabel.m */; };
 		37E3340223D197F0000E1938 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E3340123D197F0000E1938 /* AppDelegate.m */; };
 		37E3340523D197F0000E1938 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E3340423D197F0000E1938 /* SceneDelegate.m */; };
 		37E3340823D197F0000E1938 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E3340723D197F0000E1938 /* ViewController.m */; };
@@ -15,16 +18,20 @@
 		37E3340D23D197F1000E1938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E3340C23D197F1000E1938 /* Assets.xcassets */; };
 		37E3341023D197F1000E1938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E3340E23D197F1000E1938 /* LaunchScreen.storyboard */; };
 		37E3341323D197F1000E1938 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E3341223D197F1000E1938 /* main.m */; };
-		37E3342D23D198EC000E1938 /* SFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E3342623D198EC000E1938 /* SFImageView.m */; };
-		37E3342E23D198EC000E1938 /* SFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E3342923D198EC000E1938 /* SFLabel.m */; };
-		37E3342F23D198EC000E1938 /* SFCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E3342B23D198EC000E1938 /* SFCustomButton.m */; };
 		7A0E63CE9BDC5429E53C69DE /* libPods-SFCustomButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1314495798F0ED958ED4FE3F /* libPods-SFCustomButton.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1314495798F0ED958ED4FE3F /* libPods-SFCustomButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SFCustomButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		372CE4DF23D1BD0400A53995 /* UIImage+Extends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extends.h"; sourceTree = "<group>"; };
-		372CE4E023D1BD0400A53995 /* UIImage+Extends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extends.m"; sourceTree = "<group>"; };
+		3754CE3523D42D5A00096AE8 /* SFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFImageView.m; sourceTree = "<group>"; };
+		3754CE3623D42D5A00096AE8 /* SFCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCustomButton.m; sourceTree = "<group>"; };
+		3754CE3723D42D5A00096AE8 /* SFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFLabel.h; sourceTree = "<group>"; };
+		3754CE3823D42D5A00096AE8 /* UIImage+Extends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extends.h"; sourceTree = "<group>"; };
+		3754CE3923D42D5A00096AE8 /* SFCustomButtonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCustomButtonHeader.h; sourceTree = "<group>"; };
+		3754CE3A23D42D5A00096AE8 /* SFCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCustomButton.h; sourceTree = "<group>"; };
+		3754CE3B23D42D5A00096AE8 /* SFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFImageView.h; sourceTree = "<group>"; };
+		3754CE3C23D42D5A00096AE8 /* UIImage+Extends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extends.m"; sourceTree = "<group>"; };
+		3754CE3D23D42D5A00096AE8 /* SFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFLabel.m; sourceTree = "<group>"; };
 		37E333FD23D197F0000E1938 /* SFCustomButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFCustomButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E3340023D197F0000E1938 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37E3340123D197F0000E1938 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,13 +44,6 @@
 		37E3340F23D197F1000E1938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37E3341123D197F1000E1938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E3341223D197F1000E1938 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		37E3342623D198EC000E1938 /* SFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFImageView.m; sourceTree = "<group>"; };
-		37E3342723D198EC000E1938 /* SFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFLabel.h; sourceTree = "<group>"; };
-		37E3342823D198EC000E1938 /* SFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFImageView.h; sourceTree = "<group>"; };
-		37E3342923D198EC000E1938 /* SFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFLabel.m; sourceTree = "<group>"; };
-		37E3342A23D198EC000E1938 /* SFCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCustomButton.h; sourceTree = "<group>"; };
-		37E3342B23D198EC000E1938 /* SFCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCustomButton.m; sourceTree = "<group>"; };
-		37E3342C23D198EC000E1938 /* SFCustomButtonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCustomButtonHeader.h; sourceTree = "<group>"; };
 		5EFCC1CB1A7C07D84EE01357 /* Pods-SFCustomButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCustomButton.debug.xcconfig"; path = "Target Support Files/Pods-SFCustomButton/Pods-SFCustomButton.debug.xcconfig"; sourceTree = "<group>"; };
 		81BB96A72A91948A5CCC845D /* Pods-SFCustomButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCustomButton.release.xcconfig"; path = "Target Support Files/Pods-SFCustomButton/Pods-SFCustomButton.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,13 +60,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		372CE4DE23D1BD0400A53995 /* Category */ = {
+		3754CE3423D42D5A00096AE8 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				372CE4DF23D1BD0400A53995 /* UIImage+Extends.h */,
-				372CE4E023D1BD0400A53995 /* UIImage+Extends.m */,
+				3754CE3A23D42D5A00096AE8 /* SFCustomButton.h */,
+				3754CE3623D42D5A00096AE8 /* SFCustomButton.m */,
+				3754CE3923D42D5A00096AE8 /* SFCustomButtonHeader.h */,
+				3754CE3B23D42D5A00096AE8 /* SFImageView.h */,
+				3754CE3523D42D5A00096AE8 /* SFImageView.m */,
+				3754CE3723D42D5A00096AE8 /* SFLabel.h */,
+				3754CE3D23D42D5A00096AE8 /* SFLabel.m */,
+				3754CE3823D42D5A00096AE8 /* UIImage+Extends.h */,
+				3754CE3C23D42D5A00096AE8 /* UIImage+Extends.m */,
 			);
-			path = Category;
+			path = Core;
 			sourceTree = "<group>";
 		};
 		37E333F423D197F0000E1938 = {
@@ -90,7 +97,7 @@
 		37E333FF23D197F0000E1938 /* SFCustomButton */ = {
 			isa = PBXGroup;
 			children = (
-				37E3341923D197FC000E1938 /* Core */,
+				3754CE3423D42D5A00096AE8 /* Core */,
 				37E3340023D197F0000E1938 /* AppDelegate.h */,
 				37E3340123D197F0000E1938 /* AppDelegate.m */,
 				37E3340323D197F0000E1938 /* SceneDelegate.h */,
@@ -104,29 +111,6 @@
 				37E3341223D197F1000E1938 /* main.m */,
 			);
 			path = SFCustomButton;
-			sourceTree = "<group>";
-		};
-		37E3341923D197FC000E1938 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				372CE4DE23D1BD0400A53995 /* Category */,
-				37E3342C23D198EC000E1938 /* SFCustomButtonHeader.h */,
-				37E3342523D198EC000E1938 /* subView */,
-				37E3342A23D198EC000E1938 /* SFCustomButton.h */,
-				37E3342B23D198EC000E1938 /* SFCustomButton.m */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		37E3342523D198EC000E1938 /* subView */ = {
-			isa = PBXGroup;
-			children = (
-				37E3342823D198EC000E1938 /* SFImageView.h */,
-				37E3342623D198EC000E1938 /* SFImageView.m */,
-				37E3342723D198EC000E1938 /* SFLabel.h */,
-				37E3342923D198EC000E1938 /* SFLabel.m */,
-			);
-			path = subView;
 			sourceTree = "<group>";
 		};
 		A224E7BF7BD20C561D0A9730 /* Frameworks */ = {
@@ -243,13 +227,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				37E3340823D197F0000E1938 /* ViewController.m in Sources */,
+				3754CE4023D42D5A00096AE8 /* UIImage+Extends.m in Sources */,
 				37E3340223D197F0000E1938 /* AppDelegate.m in Sources */,
+				3754CE3E23D42D5A00096AE8 /* SFImageView.m in Sources */,
 				37E3341323D197F1000E1938 /* main.m in Sources */,
-				372CE4E123D1BD0400A53995 /* UIImage+Extends.m in Sources */,
+				3754CE4123D42D5A00096AE8 /* SFLabel.m in Sources */,
 				37E3340523D197F0000E1938 /* SceneDelegate.m in Sources */,
-				37E3342E23D198EC000E1938 /* SFLabel.m in Sources */,
-				37E3342D23D198EC000E1938 /* SFImageView.m in Sources */,
-				37E3342F23D198EC000E1938 /* SFCustomButton.m in Sources */,
+				3754CE3F23D42D5A00096AE8 /* SFCustomButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
