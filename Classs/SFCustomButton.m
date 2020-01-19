@@ -7,7 +7,7 @@
 //
 
 #import "SFCustomButton.h"
-#import <Masonry/Masonry.h>
+#import <Masonry.h>
 
 @interface SFCustomButton ()
 @property (nonatomic, strong) UIStackView *stackView;
